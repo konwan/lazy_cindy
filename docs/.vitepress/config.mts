@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: "/cindy_doc/", // 需要 / 開頭和結尾
+  base: "/lazy_cindy/", // 需要 / 開頭和結尾
   title: "cindy's doc",
   description: "20250513 update",
   themeConfig: {
