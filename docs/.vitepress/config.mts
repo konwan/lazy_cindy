@@ -59,7 +59,7 @@ export default defineConfig({
       text: 'Updated at',
       formatOptions: {
         dateStyle: 'full',
-        timeStyle: 'full'
+        timeStyle: 'medium'
       }
     }
     // socialLinks: [
