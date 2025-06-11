@@ -57,7 +57,6 @@ export default defineConfig({
     lastUpdated: {
       text: 'lastupdated',
       formatOptions: {
-        forceLocale: true,
         year: 'numeric',
         month: '2-digit',
         day: '2-digit'
