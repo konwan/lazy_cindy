@@ -66,7 +66,7 @@ export default defineConfig({
         hour: "numeric",
         minute: "numeric",
         second: "numeric",
-        hour12: false,
+        // hour12: false,
         // timeZone: "Asia/Taipei",
       }
     }
