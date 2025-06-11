@@ -65,7 +65,7 @@ export default defineConfig({
         minute: "numeric",
         second: "numeric",
       }
-    },
+    }
     // socialLinks: [
     //   { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     // ]
