@@ -53,15 +53,7 @@ export default defineConfig({
           { text: 'new_infra_using_time_overview', link: '/new_infra_using_time_overview' }
         ]
       }
-    ],
-    lastUpdated: {
-      text: 'lastupdated',
-      formatOptions: {
-        year: 'numeric',
-        month: '2-digit',
-        day: '2-digit'
-      }
-    }
+    ]
     // socialLinks: [
     //   { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     // ]
