@@ -59,7 +59,6 @@ export default defineConfig({
       text: 'Updated at',
       formatOptions: {
         dateStyle: 'full',
-        timeStyle: 'medium',
         month: '2-digit',
         day: '2-digit'
       }
