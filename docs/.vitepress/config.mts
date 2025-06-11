@@ -59,7 +59,7 @@ export default defineConfig({
       text: 'lastupdated at',
       formatOptions: {
         forceLocale: true,
-        dateStyle: "full",
+        //dateStyle: "full",
         year: "numeric",
         month: "2-digit",
         day: "2-digit",
