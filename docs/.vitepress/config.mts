@@ -54,20 +54,21 @@ export default defineConfig({
         ]
       }
     ],
-    lastUpdated: {
-      text: 'lastupdated',
-      formatOptions: {
-        forceLocale: true,
-        year: 'numeric',
-        month: '2-digit',
-        day: '2-digit',
-        hour: "numeric",
-        minute: "numeric",
-        second: "numeric",
-      }
-    },
+    // lastUpdated: {
+    //   text: 'lastupdated',
+    //   formatOptions: {
+    //     forceLocale: true,
+    //     year: 'numeric',
+    //     month: '2-digit',
+    //     day: '2-digit',
+    //     hour: "numeric",
+    //     minute: "numeric",
+    //     second: "numeric",
+    //   }
+    // },
     // socialLinks: [
     //   { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     // ]
-  }
+  },
+  lastUpdated: true
 })
