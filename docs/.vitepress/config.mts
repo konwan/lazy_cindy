@@ -21,6 +21,15 @@ export default defineConfig({
           { text: 'spark_overview', link: '/spark_overview' },
           { text: 'new_infra_using_time_overview', link: '/new_infra_using_time_overview' }
         ]
+      },
+      {
+        text: 'n8n',
+        items: [
+          { text: 'memo', link: '/memo' },
+          { text: 'fx2_overview', link: '/fx2_overview' },
+          { text: 'spark_overview', link: '/spark_overview' },
+          { text: 'new_infra_using_time_overview', link: '/new_infra_using_time_overview' }
+        ]
       }
     ]
     // socialLinks: [
