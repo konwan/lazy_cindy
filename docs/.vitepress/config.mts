@@ -6,7 +6,7 @@ export default defineConfig({
   title: "cindy's doc",
   description: "20250513 update",
 
-  // 2025 add ga trcking code 
+  // 20250611 add ga trcking code 
   head: [
     // <script async src="https://www.googletagmanager.com/gtag/js?id=G-KZN8H64ZKJ"></script>
     [
@@ -36,6 +36,7 @@ export default defineConfig({
     sidebar: [
       {
         text: 'Product',
+        collapsed: false,
         items: [
           { text: 'memo', link: '/memo' },
           { text: 'fx2_overview', link: '/fx2_overview' },
@@ -52,7 +53,19 @@ export default defineConfig({
           { text: 'new_infra_using_time_overview', link: '/new_infra_using_time_overview' }
         ]
       }
-    ]
+    ],
+    lastUpdated: {
+      text: 'lastupdated',
+      formatOptions: {
+        forceLocale: true,
+        year: 'numeric',
+        month: '2-digit',
+        day: '2-digit',
+        hour: "numeric",
+        minute: "numeric",
+        second: "numeric",
+      }
+    },
     // socialLinks: [
     //   { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     // ]
