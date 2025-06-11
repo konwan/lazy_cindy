@@ -55,21 +55,7 @@ export default defineConfig({
       }
     ],
 
-    lastUpdated: {
-      text: 'lastupdated at',
-      formatOptions: {
-        forceLocale: true,
-        //dateStyle: "full",
-        year: "numeric",
-        month: "2-digit",
-        day: "2-digit",
-        hour: "numeric",
-        minute: "numeric",
-        second: "numeric"
-        // hour12: false,
-        // timeZone: "Asia/Taipei",
-      }
-    }
+    lastUpdated: true
     // socialLinks: [
     //   { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     // ]
