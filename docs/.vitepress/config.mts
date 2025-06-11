@@ -67,7 +67,7 @@ export default defineConfig({
         minute: "numeric",
         second: "numeric",
         hour12: false,
-        timeZone: "America/Los_Angeles",
+        timeZone: "Asia/Taipei",
       }
     }
     // socialLinks: [
