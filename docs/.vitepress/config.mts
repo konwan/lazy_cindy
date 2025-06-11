@@ -59,8 +59,7 @@ export default defineConfig({
       text: 'Updated at',
       formatOptions: {
         dateStyle: 'full',
-        month: '2-digit',
-        day: '2-digit'
+        timeStyle: 'short'
       }
     }
     // socialLinks: [
