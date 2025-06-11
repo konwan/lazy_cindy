@@ -59,9 +59,10 @@ export default defineConfig({
       text: 'lastupdated at',
       formatOptions: {
         forceLocale: true,
+        dateStyle: "full",
         year: "numeric",
-        month: "numeric",
-        day: "numeric",
+        month: "2-digit",
+        day: "2-digit",
         hour: "numeric",
         minute: "numeric",
         second: "numeric",
