@@ -56,8 +56,9 @@ export default defineConfig({
     ],
 
     lastUpdated: {
-      text: 'Updated at',
+      text: 'lastupdated at',
       formatOptions: {
+        forceLocale: true,
         year: "numeric",
         month: "numeric",
         day: "numeric",
