@@ -57,13 +57,10 @@ export default defineConfig({
     lastUpdated: {
       text: 'lastupdated',
       formatOptions: {
-        forceLocale: false,
+        forceLocale: true,
         year: 'numeric',
         month: '2-digit',
-        day: '2-digit',
-        hour: "numeric",
-        minute: "numeric",
-        second: "numeric",
+        day: '2-digit'
       }
     }
     // socialLinks: [
